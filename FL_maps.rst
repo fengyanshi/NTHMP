@@ -1,7 +1,4 @@
-*************************
-**WHAT IS NearCoM**
-*************************
+TSUNAMI INUNDATION MAPS
+=========================
 
-* History of NearCoM model development
-
-NearCoM (or Nearshore Community Model) 
+`WORKSHOP 2017 <../../maps/FL_flooding.html>`_

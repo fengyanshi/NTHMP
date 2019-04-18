@@ -3,14 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to nthmp_web's documentation!
-=====================================
+.. image:: images/nthmp.jpg
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    FL_maps
+   documentation
+
+
+* `Center for Applied Coastal Research (CACR)  <https://coastal.udel.edu/>`_
 
 Indices and tables
 ==================
