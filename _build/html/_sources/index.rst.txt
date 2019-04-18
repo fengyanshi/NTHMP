@@ -13,7 +13,6 @@
    documentation
 
 
-* `Center for Applied Coastal Research (CACR)  <https://coastal.udel.edu/>`_
 
 Indices and tables
 ==================
