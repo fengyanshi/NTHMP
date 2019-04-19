@@ -11,7 +11,7 @@ Fengyan Shi
 
 Babak Tehranirad, Graduate Research Assistant, 2010-2016
 
-Jie Yu, Visiting PhD Student (2019 - )
+Yujie Chen, Visiting PhD Student (2019 - )
 
 University of Rhode Island:
 
