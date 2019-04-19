@@ -1,5 +1,7 @@
-TSUNAMI INUNDATION MAPS
-=========================
+Miami
+*****************
+
+(these are examples using 100m resolution)
 
 `MIAMI TSUNAMI INUNDATION MAP (Max Height) <../../maps/FL_flooding.html>`_
 
