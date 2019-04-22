@@ -7,11 +7,14 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: contents
 
-   FL_maps
+   introduction
+   maps
    documentation
+   models
+   workshop
    archive
+  
 
 
 Indices and tables
