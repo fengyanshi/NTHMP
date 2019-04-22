@@ -2,9 +2,7 @@ Proposal and Progress Reports
 *********************************
 
 #. Kirby, J. T. and Grilli, S. T., 2010, "Modeling tsunami inundation and assessing tsunami hazards for the U. S. East Coast", Proposal to the National Tsunami Hazard Mitigation Program.
-(pdf file here)
 
-<<<<<<< HEAD
 March, 2011 Progress Report <https://drive.google.com/open?id=1khDoRtJ0jz-43IkquWttzcRggXudrwxp>`_
 
 August, 2011 Progress Report <https://drive.google.com/open?id=1N7ykhbIgF3X0bDYdveVXr9rQ0G18lvGf>`_
