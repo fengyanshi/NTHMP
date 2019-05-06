@@ -1,14 +1,10 @@
 Miami
 *****************
 
-<<<<<<< HEAD
 CAPE_FEAR:
-=======
->>>>>>> 9e64e8a4bec847b8cdc3a83a584a8bf5172cad91
 
 `MIAMI TSUNAMI INUNDATION MAP (Inundation Height) <../../maps/FL_flooding_source1.html>`_
 
-<<<<<<< HEAD
 `MIAMI TSUNAMI INUNDATION MAP (Max Velocity) <../../maps/FL_flooding_velocity_source1.html>`_
 
 BAHAMAS_BANK:
@@ -16,10 +12,7 @@ BAHAMAS_BANK:
 `MIAMI TSUNAMI INUNDATION MAP (Inundation Height) <../../maps/FL_flooding_source2.html>`_
 
 `MIAMI TSUNAMI INUNDATION MAP (Max Velocity) <../../maps/FL_flooding_velocity_source2.html>`_
-=======
-`MIAMI TSUNAMI INUNDATION MAP (Max Velocity) <../../maps/FL_flooding_velocity.html>`_
 
 More maps will be shown later. 
 
 `Back to NTHMP UD Page <https://fengyanshi.github.io/NTHMP/_build/html/index.html>`_
->>>>>>> 9e64e8a4bec847b8cdc3a83a584a8bf5172cad91
