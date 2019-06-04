@@ -1,6 +1,9 @@
 Miami
 *****************
 
+`Simulation grid area <../../maps/grid_range.html>`_
+
+
 CAPE_FEAR:
 
 `MIAMI TSUNAMI INUNDATION MAP (Inundation Height) <../../maps/FL_flooding_source1.html>`_
