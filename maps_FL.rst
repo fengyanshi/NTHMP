@@ -1,4 +1,4 @@
-Miami
+Florida Miami
 *****************
 
 `Simulation grid area <../../maps/grid_range.html>`_
