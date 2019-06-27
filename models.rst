@@ -6,3 +6,4 @@
 
    model_funwave
    model_nhwave
+   model_benchmark
