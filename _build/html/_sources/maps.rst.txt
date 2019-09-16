@@ -1,10 +1,8 @@
-**TSUNAMI INUNDATION MAPS**
-==================================
+**TSUNAMI INUNDATION MAPS (Traditional pdf)**
+=================================================
 
 .. toctree::
    :maxdepth: 2
-
-   maps_FL
 
    maps_DE
 

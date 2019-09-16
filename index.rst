@@ -10,6 +10,7 @@
 
    introduction
    maps
+   online_maps
    documentation
    models
    workshop
