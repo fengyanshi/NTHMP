@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'nthmp_web'
+project = 'NTHMP'
 copyright = '2019, FengyanShi'
 author = 'FengyanShi'
 
