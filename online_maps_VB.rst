@@ -1,21 +1,21 @@
 Virginia Beach
 *****************
 
-**Maximum Height**
+**Inundation Map**
 
-`FALSE CAPE (V1) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V1.html>`_
+`FALSE CAPE (VB1) TSUNAMI INUNDATION MAP  <../../maps/Flood_V1.html>`_
 
-`VIRGINIA BEACH (V2) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V2.html>`_
+`VIRGINIA BEACH (VB2) TSUNAMI INUNDATION MAP <../../maps/Flood_V2.html>`_
 
-`NORFORK (V3) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V3.html>`_
+`NORFORK (VB3) TSUNAMI INUNDATION MAP <../../maps/Flood_V3.html>`_
 
-`HAMPTON (V4) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V4.html>`_
+`HAMPTON (VB4) TSUNAMI INUNDATION MAP <../../maps/Flood_V4.html>`_
 
-`MATHEWS (V5) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V5.html>`_
+`MATHEWS (VB5) TSUNAMI INUNDATION MAP <../../maps/Flood_V5.html>`_
 
-`CAPE CHARLES CITY (V6) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V6.html>`_
+`CAPE CHARLES CITY (VB6) TSUNAMI INUNDATION MAP <../../maps/Flood_V6.html>`_
 
-`EASTVILLE (V7) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Hmax_V7.html>`_
+`EASTVILLE (VB7) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Flood_V7.html>`_
 
 More maps will be shown later. 
 

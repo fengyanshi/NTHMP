@@ -1,7 +1,7 @@
 
 param_CV3;  % change
 
-rang={[0 1],[0 5],[0 1],[0 1],[0 5]};         % change
+rang={[0 5],[0 5],[0 5],[0 5],[0 5]};         % change
 % --------------
 
 
@@ -20,13 +20,16 @@ flood=hmax;
 flood(flood>0.0)=1;
 flood(dep>0)=0;
 flood(flood<threhold)=0;
-
 total_flood(:,:,k)=flood(:,:);
+
+
+h_add=hmax;                      %
+h_add(dep>0)=0;                  %
+h_add(hmax<threhold)=0;          %
+total_hmax(:,:,k)=h_add(:,:);    %
 
 hmax(dep>0)=NaN;
 hmax(hmax<threhold)=NaN;
-
-total_hmax(:,:,k)=hmax;
 
 fig=figure(1);
 clf
@@ -93,6 +96,9 @@ end
 
 % combine
 hmax_comb=max(total_hmax,[],3);
+hmax_comb(dep>1)=NaN;               %
+hmax_comb(hmax_comb<threhold)=NaN;  %
+
 flood_comb=max(total_flood,[],3);
 
 fig=figure;
