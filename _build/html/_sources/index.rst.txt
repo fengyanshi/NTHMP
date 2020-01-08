@@ -9,8 +9,8 @@
    :maxdepth: 2
 
    introduction
-   maps
    online_maps
+   maps
    documentation
    models
    workshop
