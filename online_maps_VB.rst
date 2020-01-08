@@ -15,7 +15,7 @@ Virginia Beach
 
 `CAPE CHARLES CITY (VB6) TSUNAMI INUNDATION MAP <../../maps/Flood_V6.html>`_
 
-`EASTVILLE (VB7) TSUNAMI INUNDATION MAP (Maximum Height) <../../maps/Flood_V7.html>`_
+`EASTVILLE (VB7) TSUNAMI INUNDATION MAP <../../maps/Flood_V7.html>`_
 
 More maps will be shown later. 
 
