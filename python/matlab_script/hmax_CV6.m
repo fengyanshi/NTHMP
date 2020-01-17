@@ -1,6 +1,5 @@
 
 param_CV6;  % change
-bar_position=[.93 .1 .01 .45];  % change
 
 rang={[0 1],[0 5],[0 1],[0 1],[0 5]};         % change
 % --------------
@@ -35,7 +34,7 @@ clf
 pcolor(x,y,hmax),shading flat
 caxis(rang{k})
 c=colorbar;
-c.Location='east';
+c.Location=bar_location;
 c.TickDirection ='in';
 c.Position=bar_position;
 c.FontSize = 12;
@@ -102,7 +101,7 @@ clf
 pcolor(x,y,hmax_comb),shading flat
 caxis(rang{k+1})
 c=colorbar;
-c.Location='east';
+c.Location=bar_location;
 c.TickDirection ='in';
 c.Position=bar_position;
 c.FontSize = 12;

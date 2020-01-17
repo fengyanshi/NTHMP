@@ -26,9 +26,24 @@ numb={'0653', '0782' '0686' '0775'};        % change
 xyname='CV7_xy.txt';   % change
 % --------------
 
+A1=[m n];
+A2=[xx(1) yy(1)];
+A3=dx;
+A4=-9999;
+
 % coordinate
 xy(1,1)=x(1);
 xy(1,2)=y(1);
 xy(2,1)=x(end);
 xy(2,2)=y(end);
 save('-ASCII',xyname,'xy')
+
+bar_position=[.93 .1 .01 .45];
+bar_location='east';
+
+wid=100;
+len=96.7;
+%len=wid*n/m;
+image_size=[wid,len];
+image_position=[0 0 wid len];
+
