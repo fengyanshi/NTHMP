@@ -1,6 +1,8 @@
 Virginia Beach
 *****************
 
+.. note:: Model results in .asc format and GIS polygon shp files and can be downloaded from the `database (google drive) <https://drive.google.com/open?id=17CP5h1DG3yb9_YJTKbG4rF2dD1cPijxW>`_
+
 **FALSE CAPE (VB1)**
   
  * `Inundation Area (VB1)  <../../maps/Flood_V1.html>`_
