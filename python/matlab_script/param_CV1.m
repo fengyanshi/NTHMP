@@ -36,7 +36,7 @@ xy(2,1)=x(end);
 xy(2,2)=y(end);
 save('-ASCII',xyname,'xy')
 
-bar_position=[.9 .4 .01 .5];  % change
+bar_position=[.1 .4 .01 .5];  % change
 bar_location='east';
 
 wid=100;
