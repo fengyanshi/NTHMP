@@ -1,4 +1,4 @@
 NTHMP Landslide Tsunami Model Validation Workshop
 ****************************************************
 
-`NTHMP Landslide Tsunami Model Validation Workshop <http://www1.udel.edu/kirby/nthmp/landslides.html>`_
+`NTHMP Landslide Tsunami Model Validation Workshop <http://www1.udel.edu/kirby/landslide/>`_
