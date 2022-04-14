@@ -7,11 +7,11 @@ James T. Kirby, Professor, PI
 
 John Callahan 
 
-Fengyan Shi 
+Fengyan Shi, Professor
 
 Babak Tehranirad, Graduate Research Assistant, 2010-2016
 
-Yujie Chen, Visiting PhD Student (2019 - )
+Yujie Chen, PhD Student (2019 - )
 
 University of Rhode Island:
 
