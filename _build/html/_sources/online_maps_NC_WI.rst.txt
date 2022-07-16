@@ -1,4 +1,4 @@
-Wilmington, NA
+Wilmington, NC
 *****************
 
 .. note:: Model results in .asc format can be downloaded from the `database (google drive) <https://drive.google.com/drive/folders/1zvWNYBBc2iaxZFQubwZyUBHHqo8jCSdO?usp=sharing>`_
