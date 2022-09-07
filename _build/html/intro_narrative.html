@@ -1,17 +1,19 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
     <title>East Coast Project Narrative &#8212; NTHMP 0 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="East Coast Project Team" href="intro_team.html" />
@@ -28,18 +30,21 @@
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
-  <div class="section" id="east-coast-project-narrative">
-<h1>East Coast Project Narrative<a class="headerlink" href="#east-coast-project-narrative" title="Permalink to this headline">¶</a></h1>
+  <section id="east-coast-project-narrative">
+<h1>East Coast Project Narrative<a class="headerlink" href="#east-coast-project-narrative" title="Permalink to this heading">¶</a></h1>
 <p>In contrast to the long history of tsunami hazard assessment on the US West coast and Hawaii, tsunami hazard assessment along the eastern US coastline is still in its infancy, in part due to the lack of historical tsunami records and the uncertainty regarding the magnitude and return periods of potential large-scale events (e.g., transoceanic tsunamis caused by a large Lisbon 1755 type earthquake in the Azores-Gibraltar convergence zone, a large earthquake in the Caribbean subduction zone in the Puerto Rico (PR) trench or near Leeward Islands, or a flank collapse of the Cumbre Vieja Volcano (CVV) in the Canary Islands). Moreover, considerable geologic and some historical evidence (e.g., the 1929 Grand Bank landslide tsunami, and the Currituck slide site off North Carolina and Virginia) suggests that the most significant tsunami hazard in this region may arise from Submarine Mass Failures (SMF) triggered on the continental slope by moderate seismic activity (as low as Mw = 6 to the maximum expected in the region Mw = 7.5); such tsunamigenic landslides can potentially cause concentrated coastal damage affecting specific communities. In this project, we propose to assess tsunami hazard from the above and other relevant tsunami sources recently studied in the literature (ten Brink et al., 2008; MG special issue, 2009), and model the corresponding tsunami inundation in affected US East coast communities. Based on our experience with a variety of tsunami sources and case studies, we will model tsunami propagation, inundation, and runup using the robust and well-validated Fully Nonlinear Boussinesq Model (FNBM) FUNWAVE (Wei et al., 1995; Kennedy et al., 2000; Chen et al., 2000; Shi et al., 2001). Both Cartesian and curvilinear grids will be used for a variety of nested computational domains, at various grid scales. Whether frequency dispersion matters (e.g., for the SMF and other slide sources) or not (e.g., for the large co-seismic sources), this FNBM framework contains all the relevant physics without need to modify the model or its equations, whether one type of tsunami source or another is used. The same goes for linear versus nonlinear effects in generated tsunami wave trains, as well as for dissipation by bottom friction or bathymetrically induced breaking (which are modeled through adequate semi-empirical terms). Finally, a recent spherical coordinate implementation of FUNWAVE including Coriolis effects (Kirby et al., 2009), together with a very efficient parallel MPI and nested-domain implementation, make FNBM transoceanic simulations possible on a typical multi-core desktop computer or on the cluster computing environment available at the University of Delaware (UD), Center for Applied Coastal Research. Large co-seismic sources (e.g., PR trench or Lisbon 1755 sources) will be modeled as initial instantaneous ocean surface deformations, based on estimates of event size, magnitude and geological parameters, using Okadaâ€™s (1985) method. For reference, we recently successfully conducted a case study of the 2004 Indian Ocean tsunami using FUNWAVE, following this methodology (Grilli et al., 2007; Ioualalen et al., 2007; Karlsson et al., 2009). Co-seismic source parameters will be obtained from both our past work (Grilli et al., 2008, 2010) and other recent work reported in the literature (e.g., MG special issue, 2009).</p>
 <p>Both historical (e.g., 1929 Grand Bank) and other local SMF sources will be modeled according to the methodology reported in Watts et al. (2003, 2005) and Grilli et al. (2005), and validated for a number of historical case studies (e.g., Day et al., 2005; Tappin et al., 2008). In this method, relevant SMF sources are semi-empirically generated from geomechanical, geological, and geometrical parameters, and specified as initial conditions (wave elevation and velocities) in the FNBM propagation model. Such (experimentally validated) sources were derived, based on a large number of 3D simulations of slide kinematics using a model solving fully nonlinear (inviscid) 3D Euler eqs. with a free surface. Since our earlier modeling and scaling analyses showed that the key parameter in SMF tsunami generation is initial acceleration, and typical SMF deformation rates do no significantly affect key tsunami features (Grilli and Watts, 2005), the methodology assumes rigid (translational or rotational) slides. But this is not a limitation and if known from sediment rheological properties, slide deformation effects can be included in the tsunami source.</p>
 <p>Location and parameters for local SMF sources (other than historical) will first be identified by performing a first-order probabilistic analysis of SMF hazard along the east coast. Such work was already conducted by Grilli et al. (2009), for coastal areas from New Jersey to Maine. Results of this analysis were presented in terms of 100 and 500 year runup from seismically induced tsunamigenic SMFs. An extensive Monte Carlo (MC) model was developed and employed, in which distributions of relevant parameters (seismicity, sediment properties, type and location of slide, volume and dimensions of slide, water depth, etc.) were used to perform large numbers of stochastic stability analyses of submerged slopes (along actual transects across the shelf), based on conventional pseudo-static limit equilibrium methods for both translational and rotational failures. The distribution of predicted slope failures along the upper US East Coast was found to match published data quite well (Booth et al., 1985, 1993; Chaytor et al., 2007, 2009). Estimates of tsunami runup associated with SMF hazard were found to be low at most locations except, for the 500-yr tsunami, for two regions off Long Island, NY (up to 3-m) and off the New Jersey coast (up to 4-m). However, detailed deterministic tsunami generation, propagation and inundation modeling is required, in order to accurately estimate the inundation (and runup) hazard at these sites. This will be done in this project. Further, to estimate relevant SMF sources from the Florida border to New Jersey, we will perform a similar MC analysis for this East coast region, and observed slope failure distributions will again be used to ground truth the MC model predictions. Recent field measurements, slope stability analyses, and 3D-Navier-Stokes multi-fluid (material) modeling work (Abadie, et al., 2009) will be reviewed and used to define and simulate realistic scenarios for a CVV flank collapse source. These will be used to develop a defensible approach for estimating tsunami hazard from this hypothetical event. We will simulate tsunami hazard from the few selected CVV flank collapse scenarios.</p>
 <p>We will combine ocean scale simulations of transoceanic tsunami sources, such as Lisbon 1755 like or Puerto Rico Trench co-seismic events, and CVV collapse, with regional scale simulations of these events, along with the regional scale SMF events, in order to establish the relative degree of hazards for East Coast communities. Detailed inundation studies will be conducted for highest-risk East Coast communities, and results of these studies will be used to construct a first-generation of tsunami inundation maps for the chosen communities.</p>
-</div>
+</section>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -83,12 +88,20 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
         </div>
       </div>
       <div class="clearer"></div>
@@ -97,8 +110,8 @@
       &copy;2019, FengyanShi.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="_sources/intro_narrative.rst.txt"
