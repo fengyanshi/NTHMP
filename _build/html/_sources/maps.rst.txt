@@ -4,6 +4,8 @@
 .. toctree::
    :maxdepth: 2
 
+   maps_RI
+
    maps_DE
 
    maps_GA
